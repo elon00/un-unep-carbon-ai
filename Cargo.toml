@@ -1,0 +1,13 @@
+[package]
+name = "un_unep_carbon_ai"
+version = "0.1.0"
+edition = "2021"
+description = "UNEP EarthLedger AI: Sovereign Paris Agreement Article 6 Carbon Ledger, Biodiversity Credits and Global Plastics Treaty Mesh"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
